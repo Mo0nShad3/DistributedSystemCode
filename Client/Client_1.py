@@ -26,7 +26,7 @@ current_time = date_and_time.strftime("%H:%M")
 date = date_and_time.strftime("%d/%m/%Y")
 
 # MQTT broker configuration 
-mqtt_Broker = 'localhost' # Public IP of broker to connect to.
+mqtt_Broker = '92.40.190.234' # Public IP of broker to connect to. 
 mqtt_Port = 8883 # Non-standard port for security.
 client_ID = "Client_" + "1"  #str(uuid.uuid4()) # Set a unique client ID ~ 
 mqtt_Username = "Admin"
