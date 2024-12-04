@@ -27,7 +27,7 @@ date = date_and_time.strftime("%d/%m/%Y")
 
 # MQTT broker configuration
 #mqtt_Broker = '92.40.190.234' # Public IP of broker to connect to. 
-mqtt_Broker = '192.168.69.80' # Public IP of broker to connect to.
+mqtt_Broker = '92.40.190.234' # Public IP of broker to connect to. 
 mqtt_Port = 8883 # Non-standard port for security.
 client_ID = "Client_" + "16"  #str(uuid.uuid4()) # Set a unique client ID ~ 
 mqtt_Username = "Admin"
